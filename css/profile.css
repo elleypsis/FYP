@@ -1,0 +1,219 @@
+h1{
+float: left; }
+
+
+  h2{
+    margin: 5px;
+  }
+
+  p.leftcolumn{
+    margin: 5px;
+
+  }
+
+ .grid-container {
+   display: grid;
+   grid-template-areas:
+   'toprow toprow toprow toprow toprow toprow'
+     'bottomrow bottomrow bottomrow bottomrow bottomrow bottomrow'
+     'mostbottom mostbottom mostbottom mostbottom mostbottom mostbottom';
+   gap: 10px;
+   /* background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1)); */
+   background: linear-gradient( 135deg, rgba(0, 97, 242, 1) 0%, rgba(105, 0, 199, 1) 100% );
+   padding: 10px;
+ }
+
+
+.toprow { grid-area: toprow; 
+ width: auto;
+ min-width: 850px;
+ color: black;
+ border-radius: 6px;
+ background-color: white;
+ display: flex;
+ align-items: center;
+ opacity: 0.9;
+ 
+}
+
+.bottomrow { grid-area: bottomrow; 
+ width: auto;
+ min-width: 850px;
+ color: black;
+ border-radius: 6px;
+ background-color: #343a40;
+ display: flex;
+ align-items: center;
+
+}
+
+.mostbottom{ grid-area: mostbottom; 
+height: 60vh;
+width: auto;
+ min-width: 850px;
+ color: black;
+ border-radius: 6px;
+ background-color: #343a40;
+ display: flex;
+ align-items: center;
+}
+
+.col-sm-3{    
+    background-color: lightgrey;
+    width: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+} 
+
+.logOutButton {
+			color: #000000;
+			background-color: #9eebfe;
+			font-size: 14px;
+			border: 1px solid #9eebfe;
+			border-radius: 50px;
+			padding: 10px 40px;
+			cursor: pointer;
+		}
+
+		.logOutButton:hover {
+			color: #2d63c8;
+			background-color: #ffffff;
+		}
+
+
+   .yourInfoButton, .yourProgressButton{
+			color: #000000;
+			background-color: #9eebfe;
+			font-size: 14px;
+			border: 1px solid #9eebfe;
+			border-radius: 50px;
+			padding: 10px 40px;
+			cursor: pointer;
+      margin: 0 auto; 
+      display:block;
+    }
+
+    .yourInfo, .yourProgress {
+    display: none;
+    background-color: lightgrey;
+    width: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .yourDefault {
+    background-color: lightgrey;
+    width: auto;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+table.GeneratedTable, table.TopTable {
+  width: 100%;
+  border-collapse: separate;
+  border-radius:6px;
+  color: #000000;
+  }
+
+  table.GeneratedTable {
+    border-spacing: 10px;
+  }
+
+table.TopTable td{
+  padding-left: 100px;
+  padding-top: 0px;
+ 
+}
+
+table.GeneratedTable th{
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  }
+
+  table.GeneratedTable td {
+    text-align: center;
+  vertical-align: middle;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    border-spacing: 20px;
+    padding: 15px;
+
+  }
+
+
+table.GeneratedTable td:first-child { 
+  text-align: left;
+  width: 1%;
+  background-color: white;
+  white-space: nowrap;
+ }
+
+
+table.TopTable th {
+  color: grey;
+  padding-bottom: 0px;
+  padding-left: 100px;
+}
+
+.topRowTable{
+  margin: 0 auto;
+}
+
+
+.horizontal-timeline .items {
+  border-top: 3px solid #e9ecef;
+}
+
+.horizontal-timeline .items .items-list {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+  margin-right: 0;
+}
+
+.horizontal-timeline .items .items-list:before {
+  content: "";
+  position: absolute;
+  height: 36px;
+  border-right: 2px dashed #dee2e6;
+  top: 0;
+}
+
+.horizontal-timeline .items .items-list .event-date {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  right: 0;
+  width: 75px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  padding-top: 8px;
+}
+
+@media (min-width: 1140px) {
+  .horizontal-timeline .items .items-list {
+    display: inline-block;
+    width: 24%;
+    padding-top: 45px;
+  }
+
+  .horizontal-timeline .items .items-list .event-date {
+    top: -40px;
+  }
+}
+
+h5 {
+  color: white;
+}
+
+.text-muted {
+  color: white!important;
+}
